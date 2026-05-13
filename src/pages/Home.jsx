@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import heroImg from '../assets/hero.png';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -27,8 +28,8 @@ export default function Home() {
       </div>
 
       <img
-        src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1200&auto=format&fit=crop"
-        alt="car"
+        src={heroImg}
+        alt="UniRide"
       />
     </div>
   );
